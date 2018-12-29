@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QCM</string>
+    <string name="select_quiz">Choisir un questionnaire</string>
+    <string name="scores">Scores</string>
+    <string name="reset_score">Réinitialiser les scores</string>
+    <string name="create_quiz">Créer un questionnaire</string>
+    <string name="close">Quitter</string>
+
+    <string name="score_activity_title">Scores</string>
+</resources>

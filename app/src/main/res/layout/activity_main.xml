@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/show_questionnaires_list"
+            android:text="@string/select_quiz"
+            android:layout_width="250dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/show_scores"
+            android:text="@string/scores"
+            android:layout_width="250dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/reset_scores"
+            android:text="@string/reset_score"
+            android:layout_width="250dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/create_questionnaire"
+            android:text="@string/create_quiz"
+            android:layout_width="250dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/close"
+            android:text="@string/close"
+            android:layout_width="250dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
